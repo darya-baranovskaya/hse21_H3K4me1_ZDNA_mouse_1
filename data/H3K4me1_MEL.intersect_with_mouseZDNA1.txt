@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	peak	feature	feature.ranges.start	feature.ranges.end	feature.ranges.width	feature.strand	distance	insideFeature	distanceToSite	symbol
+chr15	75747692	75747904	213	*	X13	25942	75661720	75748124	86405	-	0	inside	219	SIN3A

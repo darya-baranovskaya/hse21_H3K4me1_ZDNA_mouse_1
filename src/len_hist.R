@@ -9,12 +9,15 @@ setwd("/Users/daryabaranovskaya/HSE_third_course/Bioinformatics/final_project/hs
 
 #NAME <- 'H3K4me1_MEL.ENCFF563AUO.mm10'
 NAME <- 'H3K4me1_MEL.ENCFF687RAP.mm10'
-OUT_DIR <- 'Results/'
+NAME <- 'mouseZ-DNA1.cut1-3'
+
+OUT_DIR <- '../Results/'
 
 ###
 
-bed_df <- read.delim(paste0('data/', NAME, '.bed'), as.is = TRUE, header = FALSE)
-colnames(bed_df) <- c('chrom', 'start', 'end', 'name', 'score')
+bed_df <- read.delim(paste0('../data/', NAME, '.bed'), as.is = TRUE, header = FALSE)
+#colnames(bed_df) <- c('chrom', 'start', 'end', 'name', 'score')
+colnames(bed_df) <- c('chrom', 'start', 'end')
 bed_df$len <- bed_df$end - bed_df$start
 head(bed_df)
 

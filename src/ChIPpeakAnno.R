@@ -9,9 +9,9 @@ source('lib.R')
 # BiocManager::install("org.Mm.eg.db")
 
 library(ChIPpeakAnno)
-library(TxDb.Hsapiens.UCSC.hg19.knownGene)
+#library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 library(org.Hs.eg.db)
-#library(TxDb.Mmusculus.UCSC.mm10.knownGene)
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 #library(org.Mm.eg.db)
 
 ###
